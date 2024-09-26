@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Webpack App</title>
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center title-box">
+                <h1> Calidad del Aire </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <img src="assets/sustenta_logo.png" width="200" />
+                <br>
+                <img src="assets/IB_QuickReferenceCentrus_A-02.png" width="300" />
+            </div>
+            <div class="col-lg-6 text-center">
+                <div>AQI</div>
+                <div class="aqi-gas text-center">Gas dominante: </div>
+                <div class="aqi-container">
+                    <div class="aqi-background"></div>
+                    <div class="aqi-bar"></div>
+                    <div class="aqi-value">0%</div>
+                </div>
+            </div>
+        </div>
+        <div style="font-size: 20px">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-white">
+                            CO
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-blue">
+                            <span id="co-value"><span>Value</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-glow text-center">
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-white">
+                            PM2.5
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-blue">
+                            <span id="pm25-value">Value</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-glow text-center">
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-white">
+                            PM10
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-blue">
+                            <span id="pm10-value">Value</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-white">
+                            Ozono
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-blue">
+                            <span id="o3-value">Value</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-glow text-center">
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-white">
+                            Temperatura
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-blue">
+                            <span id="temp-value">Value</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-glow text-center">
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-white">
+                            Humedad
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center text-glow-blue">
+                            <span id="hum-value">Value</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
