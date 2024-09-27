@@ -34,20 +34,20 @@ del sistema operativo de Raspberry Pi no funciona esta solución.
 
 Compilar frontend
 
-    $ cd/frontend
-    $ npm install
-    $ npm audit fix # en caso de ser necesario
-    $ npm run build
+    cd/frontend
+    npm install
+    npm audit fix # en caso de ser necesario
+    npm run build
 
 Compilar backend (en el directorio raíz del proyecto)
 
-    $ export GOHOSTARCH=arm
-    $ export GOARCH=arm
-    $ go build -o ./tmp/dashboard ./cmd/main.go
+    export GOHOSTARCH=arm
+    export GOARCH=arm
+    go build -o ./tmp/dashboard ./cmd/main.go
 
 Servir backend
 
-    $ ./tmp/dashboard
+    ./tmp/dashboard
 
 Visitar localhost:8080 ó 127.0.0.1:8080 en cualquier navegador
 
