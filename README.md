@@ -34,7 +34,7 @@ del sistema operativo de Raspberry Pi no funciona esta solución.
 
 Compilar frontend
 
-    cd/frontend
+    cd frontend
     npm install
     npm audit fix # en caso de ser necesario
     npm run build
