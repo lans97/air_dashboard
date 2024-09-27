@@ -49,7 +49,10 @@ Servir backend
 
     ./tmp/dashboard
 
-Visitar localhost:8080 ó 127.0.0.1:8080 en cualquier navegador
+Visitar localhost:8080 ó 127.0.0.1:8080 en cualquier navegador.
+O con el siguiente comando en otra terminal.
+
+    chromium-browser --kiosk http://localhost:8080 --no-sandbox
 
 ## Dependencias
 - echo https://echo.labstack.com
