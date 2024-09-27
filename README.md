@@ -41,8 +41,8 @@ Compilar frontend
 
 Compilar backend (en el directorio raíz del proyecto)
 
-    $ export GOHOSTARCH=arm64
-    $ export GOARCH=arm64
+    $ export GOHOSTARCH=arm
+    $ export GOARCH=arm
     $ go build -o ./tmp/dashboard ./cmd/main.go
 
 Servir backend
